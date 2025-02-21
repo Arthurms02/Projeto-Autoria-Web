@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Bases</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <main>
+        <h1>Escolha a base que deseja converte</h1>
+        <p id="Binario" data-valor="2">Binario para outras bases.</p>
+        <section>
+            <input type="text" id="inputBinario">
+            <output id="1">Saida</output>
+            <br>
+            <br>
+            <button onclick="processarOctalBinairo()">Octal</button>
+            <button onclick="processarDecimalBinario()">Decimal</button>
+            <button onclick="processarHexadecimalBinario()">Hexadecimal</button>
+        </section>
+        <section>
+            <p id="Octal" data-valor="8">Octal para outras bases</p>
+            <input type="text" id="inputOctal">
+            <output id="2">Saida</output>
+            <br>
+            <br>
+            <button onclick="processarBinarioOctal()">Binario</button>
+            <button onclick="processarDecimalOctal()">Decimal</button>
+            <button onclick="processarHexadecimalOctal()">Hexadecimal</button>
+        </section>
+        <section>
+            <p id="Decimal" data-valor="10">Decimal para outras bases</p>
+            <input type="text" id="inputDecimal">
+            <output id="3">Saida</output>
+            <br>
+            <br>
+            <button onclick="processarOctalDecimal()">Octal</button>
+            <button onclick="processarBinarioDecimal()">Binario</button>
+            <button onclick="processarHexadecimalDecimal()">Hexadecimal</button>
+        </section>
+        <section>
+            <p id="Hexa" data-valor="16">Hexadecimal para outras bases</p>
+            <input type="text" id="inputHexa">
+            <output id="4">Saida</output>
+            <br>
+            <br>
+            <button onclick="processarOctalHexa()">Octal</button>
+            <button onclick="processarDecimalHexa()">Decimal</button>
+            <button onclick="processarBinarioHexa()">Binario</button>
+        </section>
+    </main>
+</body>
+</html>
