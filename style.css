@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(109, 134, 77);
+    border: 2px solid;
+    padding: 2vw;
+}
+
+.btn-1{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+}
