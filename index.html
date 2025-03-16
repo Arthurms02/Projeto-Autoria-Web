@@ -10,46 +10,53 @@
 <body>
     <main>
         <h1>Escolha a base que deseja converte</h1>
-        <br>
-        <section class="container"> 
-            <p id="Binario" data-valor="2">Binario para outras bases.</p>
-            <input type="text" id="inputBinario">
-            <output id="1">Saida</output>
-            <br>
-            <br>
-            <button class="btn-1" onclick="processarOctalBinairo()">Octal</button>
-            <button class="btn-1" onclick="processarDecimalBinario()">Decimal</button>
-            <button class="btn-1" onclick="processarHexadecimalBinario()">Hexadecimal</button>
+        <section class="container">
+            <section class="container-input">
+                <p id="Binario" data-valor="2">Binario para outras bases.</p>
+                <input type="text" id="inputBinario">
+                <output id="1">Saida</output>
+            </section>
+            <div class="container-btn">
+                <button class="btn-1" onclick="processarOctalBinairo()">Octal</button>
+                <button class="btn-1" onclick="processarDecimalBinario()">Decimal</button>
+                <button class="btn-1" onclick="processarHexadecimalBinario()">Hexadecimal</button>
+            </div>
         </section>
         <section class="container">
-            <p id="Octal" data-valor="8">Octal para outras bases</p>
-            <input type="text" id="inputOctal">
-            <output id="2">Saida</output>
-            <br>
-            <br>
-            <button class="btn-1" onclick="processarBinarioOctal()">Binario</button>
-            <button class="btn-1" onclick="processarDecimalOctal()">Decimal</button>
-            <button class="btn-1" onclick="processarHexadecimalOctal()">Hexadecimal</button>
+            <section class="container-input">
+                <p id="Octal" data-valor="8">Octal para outras bases</p>
+                <input type="text" id="inputOctal">
+                <output id="2">Saida</output>
+            </section>
+            <div class="container-btn">
+                <button class="btn-1" onclick="processarBinarioOctal()">Binario</button>
+                <button class="btn-1" onclick="processarDecimalOctal()">Decimal</button>
+                <button class="btn-1" onclick="processarHexadecimalOctal()">Hexadecimal</button>
+            </div>        
         </section>
         <section class="container">
-            <p id="Decimal" data-valor="10">Decimal para outras bases</p>
-            <input type="text" id="inputDecimal">
-            <output id="3">Saida</output>
-            <br>
-            <br>
-            <button class="btn-1" onclick="processarOctalDecimal()">Octal</button>
-            <button class="btn-1" onclick="processarBinarioDecimal()">Binario</button>
-            <button class="btn-1" onclick="processarHexadecimalDecimal()">Hexadecimal</button>
+            <section class="container-input">
+                <p id="Decimal" data-valor="10">Decimal para outras bases</p>
+                <input type="text" id="inputDecimal">
+                <output id="3">Saida</output>
+            </section>
+            <div class="container-btn">
+                <button class="btn-1" onclick="processarOctalDecimal()">Octal</button>
+                <button class="btn-1" onclick="processarBinarioDecimal()">Binario</button>
+                <button class="btn-1" onclick="processarHexadecimalDecimal()">Hexadecimal</button>
+            </div>
         </section>
         <section class="container">
-            <p id="Hexa" data-valor="16">Hexadecimal para outras bases</p>
-            <input type="text" id="inputHexa">
-            <output id="4">Saida</output>
-            <br>
-            <br>
-            <button class="btn-1" onclick="processarOctalHexa()">Octal</button>
-            <button class="btn-1" onclick="processarDecimalHexa()">Decimal</button>
-            <button class="btn-1" onclick="processarBinarioHexa()">Binario</button>
+            <section class="container-input">
+                <p id="Hexa" data-valor="16">Hexadecimal para outras bases</p>
+                <input type="text" id="inputHexa">
+                <output id="4">Saida</output>
+            </section>
+            <div class="container-btn">
+                <button class="btn-1" onclick="processarOctalHexa()">Octal</button>
+                <button class="btn-1" onclick="processarDecimalHexa()">Decimal</button>
+                <button class="btn-1" onclick="processarBinarioHexa()">Binario</button>
+            </div>
         </section>
     </main>
 </body>
